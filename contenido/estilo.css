@@ -1,0 +1,247 @@
+header {
+  background-color: #F5F3EF;
+  padding: 0px;
+  text-align: center;
+}
+.menu {
+  list-style-type: none;
+  background-color: #6E2714;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+#  position: absolute;
+#  top: 80%;
+#  left: 50%;
+#  transform: translate(-50%, -50%);
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+.menu li a:hover {
+  background-color: #33140B;
+}
+.menuinicio li a.active {
+  background-color: #8533ff;
+}
+.estilo-seccion-inicio {
+  color: white;
+  background-color: #c3b4ef;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 20px;
+}
+.estilo-seccion-parques {
+  color: #6E2714;
+  background-color: #F5F3EF;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.art-inicio {
+  color: black;
+  background-color: #d9d2ec;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 20px;
+}
+.articulo-disneyland {
+  color: white;
+  background-color: #d699ff;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.articulo-studios {
+  color: black;
+  background-color: #d6eaf8 ;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.listasblanco {
+  list-style-type: circle;
+}
+.listasblanco a  {
+  color: white;
+  text-decoration: none;
+}
+.listasblanco a.active  {
+  color: white;
+  text-decoration: none;
+}
+.listasnegro {
+  list-style-type: circle;
+}
+.listasnegro a  {
+  color: black;
+  text-decoration: none;
+}
+.listasnegro a.active  {
+  color: black;
+  text-decoration: none;
+}
+.atracciones {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.lista-hoteles {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.lista-hoteles a	{
+  color: white;
+  text-decoration: none;
+}
+.lista-hoteles a.active	{
+  color: white;
+  text-decoration: none;
+}
+th, td {
+  border: 1px solid white;
+  text-align: center;
+}
+.fondorojo {
+  color: white;
+  background-color: #a93226;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondorosa {
+  color: white;
+  background-color: #d4258f;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondoverde {
+  color: white;
+  background-color: #0e6655;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondomarronosc {
+  color: white;
+  background-color: #6e2c00;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondomarron {
+  color: white;
+  background-color: #a04000;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondoazul {
+  color: white;
+  background-color: #1b4f72;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondonaranja {
+  color: black;
+  background-color: #fad7a0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondoazulflojo {
+  color: black;
+  background-color: #3498db;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.fondolila{
+  color: white;
+  background-color: #5b2c6f;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+ .logotipos {
+	float: right;
+ }
+.estilo-seccion-hoteles {
+  color: black;
+  background-color: #d6eaf8 ;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+} 
+.estilo-articulo-hoteles-disney {
+  color: white;
+  background-color: #1b4f72 ;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+}
+.estilo-seccion-restaurantes {
+  color: white;
+  background-color: #a93226 ;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana;
+  padding: 10px;
+} 
+.lista-restaurantes {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin: 0 auto;
+}
+tr td, th { 
+    border-top-right-radius: 0;               
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
+}
+th:first-child { 
+    border-top-left-radius: 10px; 
+}
+th:last-child {   
+    border-top-right-radius: 10px; 
+}
+tr:last-child td:first-child { 
+    border-bottom-left-radius: 10px; 
+}
+tr:last-child td:last-child { 
+    border-bottom-right-radius: 10px; 
+}
+
+#anuncio {
+  text-align: center;
+  background-color: white ;
+  color: violet;
+  font-size: 1.5em;
+  font-style: italic; 
+}
